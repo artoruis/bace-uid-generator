@@ -6,7 +6,7 @@
 	<!-- UID generator -->
 	<bean id="disposableWorkerIdAssigner" class="com.baidu.fsg.uid.worker.DisposableWorkerIdAssigner" />
 
-	<bean id="cachedUidGenerator" class="com.baidu.fsg.uid.impl.CachedUidGenerator">
+	<bean id="cachedUidGenerator" class="com.bace.uid.impl.CachedUidGenerator">
 		<property name="workerIdAssigner" ref="disposableWorkerIdAssigner" />
 
 		<!-- 以下为可选配置, 如未指定将采用默认值 -->

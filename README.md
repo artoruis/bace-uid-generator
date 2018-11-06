@@ -119,7 +119,7 @@ Reset property of 'jdbc.url', 'jdbc.username' and 'jdbc.password' in [mysql.prop
 
 ### Step 3: Spring configuration
 #### DefaultUidGenerator
-There are two implements of UidGenerator: [DefaultUidGenerator](src/main/java/com/baidu/fsg/uid/impl/DefaultUidGenerator.java), [CachedUidGenerator](src/main/java/com/baidu/fsg/uid/impl/CachedUidGenerator.java).<br/>
+There are two implements of UidGenerator: [DefaultUidGenerator](src/main/java/com/bace/uid/impl/DefaultUidGenerator.java), [CachedUidGenerator](src/main/java/com/bace/uid/impl/CachedUidGenerator.java).<br/>
 For performance sensitive application, CachedUidGenerator is recommended.
 
 ```xml
